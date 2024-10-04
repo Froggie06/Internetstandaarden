@@ -1,0 +1,272 @@
+ * {
+    margin: 0;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    
+    
+}
+
+.home-body {
+    background-image: url(Images/Murder.png);
+    
+}
+
+.pagina-body {
+    background-color: black;
+}
+
+/* Navigatie */
+nav a {
+    display: inline-block;
+    color: red;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 1em;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    transition: all 350ms ease;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+}
+
+nav img {
+    margin-top: 0.7em;
+    height: 60px;
+    width: 75px;
+}
+
+
+nav a:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+nav a:focus {
+    background-color: white;
+}
+
+/* Home */
+article {
+    width: 50em;
+    margin: 1em;
+    margin-top: 1em;
+    
+}
+
+.home-title {
+    color: white;
+    margin: 1em;
+    font-size: 6vh;
+}
+
+.vijver-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.podcast-home-h2 {
+    color: red;
+    font-size: 4vh;
+    
+}
+
+.podcast {
+    Color: white;
+    font-size: 3vh;
+
+}
+
+.kopje-1 {
+    font-size: 3vh;
+    color: white;
+    background-color: black;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    width: 13em;
+    transition: all 350ms ease;
+}
+
+.kopje-1 a {
+    color: red;
+}
+
+.kopje-1:hover {
+    transform: scale(1.1);
+}
+
+.kopje-2 {
+    font-size: 3vh;
+    color: white;
+    background-color: black;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+    border-radius: 1em;
+    width: 13em;
+    transition: all 350ms ease;
+
+}
+
+.kopje-2 a {
+    color: red;
+}
+
+.kopje-2:hover {
+    transform: scale(1.1);
+}
+
+.player h3 {
+    font-size: 4vh;
+       
+}
+
+.player {
+    padding: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+    background-color: black;
+    border-radius: 2em;
+    width: 19em;
+    color: white;
+    transition: all 350ms ease;
+     
+
+}
+
+.player:hover {
+transform: scale(1.1);
+}
+
+/* Over ons */
+.title-pagina {
+    color: white;
+    text-align: center;
+    font-size: 6vh;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.vijver-overons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.naam {
+    color: red;
+    font-size: 4vh; 
+    margin-bottom: 0.3em;
+}
+
+.intro-myrthe {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40em;
+    margin-left: 2em;
+    margin-right: 2em;
+    transition: all 350ms ease;
+    
+}
+
+.intro-myrthe:hover {
+    transform: scale(1.1)
+}
+
+
+.intro-denise {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 40em;
+    transition: all 350ms ease;
+}
+
+.intro-denise:hover {
+    transform: scale(1.1)
+}
+
+ul {
+    list-style-type: none;
+}
+
+.vijver-overons img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Afleveringen */
+.vijver-afleveringen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+
+.vijver-afleveringen li {
+    display: flex;
+    color: white;
+    background-color: black;
+    margin-right: 5em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    width: 35em;
+    transition: all 350ms; 
+    
+}
+
+.vijver-afleveringen li:hover {
+    transform: scale(1.1)
+}
+
+.vijver-afleveringen img {
+    width: 200px;
+    height: 200px;
+}
+
+.text-afleveringen h2 {
+    color: red;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    margin-left: 60em;
+    margin-right: 2em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    padding: 1em;
+    background-color: white;
+    opacity: 0.5;
+    margin-top: 10em;
+    list-style-type: none;
+      
+}
+
+
+
+
+
+
+
+
+
